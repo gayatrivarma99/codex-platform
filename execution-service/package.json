@@ -1,0 +1,18 @@
+{
+  "name": "codex-execution-service",
+  "version": "1.0.0",
+  "description": "Isolated Code Execution Engine for Codex Platform",
+  "main": "src/executionServer.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/executionServer.js",
+    "dev": "node --watch src/executionServer.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "morgan": "^1.10.0"
+  }
+}
